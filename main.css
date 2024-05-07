@@ -1,0 +1,36 @@
+/* This is a CSS comment */
+/* Selecting all <p> elements and changing their font color to blue */
+p {
+    color: blue;
+}
+
+/* Selecting all elements with class="important" and making their text bold */
+.important {
+    font-weight: bold;
+}
+
+/* Selecting an element with id="header" and changing its background color to gray */
+#header {
+    background-color: gray;
+}
+
+/* Applying styles to all links within a <nav> element */
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Styling a button */
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
