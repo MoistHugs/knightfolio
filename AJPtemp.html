@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+    <script src="validate.js"></script>
+</head>
+<body>
+    <div class="login-title">
+        <h2>
+            Create a new password
+        </h2>
+    </div>
+    <form method="post" action="j_security_check" class="input-box">
+        <table role="presentation" class="center">
+            <tr>
+                <td>New Password:</td>
+                <td><input type="password" name="password" size="20" id="password1"/></td>
+            </tr>
+            <tr>
+                <td>Confirm Password:</td>
+                <td><input type="password" name="passwordConfirm" size="20" id="password2"/></td>
+            </tr>
+        </table>
+        <p></p>
+        <span id="matchMessage"></span>
+        <span>
+            <input type="submit" value="Submit" id="submitButton" disabled/>
+        </span>
+    </form>
+</body>
+</html>
